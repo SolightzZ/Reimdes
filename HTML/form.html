@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การฝึกปฏิบัติการสร้างแบบฟอร์มกรอกข้อมูล</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
+
+    <style>
+        body{
+            min-height: 100vh;
+            background-image: url(img/mc1.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: 50px;
+            padding-top: 30px;
+            padding-left: 300px;
+            padding-right: 300px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            background-color: #cdcdcd1d;
+            backdrop-filter: blur(8px);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="date"],
+        input[type="number"],
+        input[type="file"] {
+            width: 110%;
+            padding: 8px;
+            border: 1px solid #ffffff;
+            border-radius: 3px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="color"] {
+            width: 80px;
+            height: 30px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #0000005a;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #ffffff;
+        }
+
+        table {
+            width: 80%;
+        }
+
+        table tr {
+            margin-bottom: 10px;
+        }
+
+        table td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <center>
+       <table style="color: #000000;">
+        <tr>
+            <td>ขื่อ - สุกล</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>username</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>เพศ</td>
+            <td><input type="radio" name="gender"> หญิง <input type="radio" name="gender">ชาย</td>
+        </tr>
+        <tr>
+            <td>วันเกิด</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>อีเมลล์</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>สัตว์ที่ชอบ</td>
+            <td><input type="checkbox">หมา <input type="checkbox">แมว <input type="checkbox">นก </td>
+        </tr>
+        <tr>
+            <td>สีที่ชอบ</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>อายุ</td>
+            <td><input type="number" min="20" max="60"></td>
+        </tr>
+        <tr>
+            <td>upload ไฟบ์การบ้าน</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="✅ บันทึก"></td>
+            <td><input type="reset" value="❌ ยกเลิก"></td>
+        </tr>
+       </table>
+    </center>
+    </form>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
+
+    
+    <br><br><br> <center>
+    <div class="card-body">
+    <a class="btn btn-lg"; 
+        style="background-color: rgba(255, 255, 255, 0.668)" 
+        href="exchome.html" 
+        class="btn btn-link btn-lg=blank role="button"
+    >back</a>
+    </div>
+    </center>  
+
+</body>
+</html>
