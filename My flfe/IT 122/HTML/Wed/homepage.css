@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: PK Samut Sakhon-Medium;
+}
+
+body{
+  background-color: #fff;
+  font-family: 'PK Samut Sakhon-Medium', sans-serif; /* ใช้ฟอนต์ DM Academy ในเนื้อหา */
+}
+
+.font1{
+  font-family: 'PK Samut Sakhon-Medium', sans-serif;
+}
+
+.img{
+  background-position: center;
+  background-size: cover;
+  height: 140;
+  width:100 ;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.1rem 3%;
+  background: rgba(0, 0, 0, .4);
+  backdrop-filter: blur(40px);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 80;
+}
+
+.logo{
+  position: absolute;
+  top: 15%;
+  width: 30%;
+  text-align: center;
+  font: size 1%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: PK Samut Sakhon-Medium;
+}
+
+.logo1 {
+  width: 100px;
+  height: auto;
+  border-radius: 40%;
+  margin-left: 2rem;
+}
+
+.navbar a {
+font-size: 1.15rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 3rem;
+
+}
+
+.icons{
+  font-size: 2.8rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.h1{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font: size 5px;
+  color: #fff;
+  font-family: PK Samut Sakhon-Medium;
+}
+
+.p1{
+  position: absolute;
+  top:58%;
+  width: 100%;
+  text-align: center;
+  font: size 5px;
+  color: #fff;
+}
+
+.animated-text {
+  position: absolute;
+  top:61%;
+  width: 100%;
+  text-align: center;
+  font: size 24px;
+  color: #fff; 
+}
+
+/* สร้างอนิเมชัน */
+@keyframes textAnimation {
+  0% {
+      transform: scale(1);
+      opacity: 0;
+  }
+  50% {
+      transform: scale(1.2);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
+/* ใช้อนิเมชันกับ <p> */
+.animated-text p {
+  animation: textAnimation 2s ease-in-out infinite;
+}
+
+/*sub home*/
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Make the image fill the entire viewport */
+.full-screen-img {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+/*sub 0*/
+.about_section{
+  background-color: #fff;
+}
+
+.new-text {
+  padding: 1rem 15rem;
+  font-size: 18px;
+  color: #333;
+  font-weight: lighter;
+}
+
+                          /* ตั้งค่ารูปภาพ*/
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+                            /* ใช้ CSS เพื่อปรับขนาดของรูปภาพตามที่ต้องการ */
+.image-container img {
+  width: 300px;             /* ปรับขนาดของรูปตามที่คุณต้องการ */
+  height: auto;
+  margin: 0 50px;           /* เพิ่มระยะห่างระหว่างรูปภาพด้วยค่า margin ทั้งด้านซ้ายและด้านขวา (ถ้าต้องการ) */
+}
+
+
+.img2 {
+  display: flex;
+  justify-content: center;
+}
+
+.img2 img{
+  width: 900px;             /* ปรับขนาดของรูปตามที่คุณต้องการ */
+  height: auto;
+  margin: 0 50px;           /* เพิ่มระยะห่างระหว่างรูปภาพด้วยค่า margin ทั้งด้านซ้ายและด้านขวา (ถ้าต้องการ) */
+}
+
+.img2:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.img3 {
+  display: flex;
+  justify-content: center;
+}
+
+.img3 img{
+  width: auto;             /* ปรับขนาดของรูปตามที่คุณต้องการ */
+  height: 300px;
+  margin: 0 50px;           /* เพิ่มระยะห่างระหว่างรูปภาพด้วยค่า margin ทั้งด้านซ้ายและด้านขวา (ถ้าต้องการ) */
+}
+
+.img3:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.img4 {
+  display: flex;
+  justify-content: center;
+}
+
+.img4 img{
+  width: auto;             /* ปรับขนาดของรูปตามที่คุณต้องการ */
+  height: 200px;
+  margin: 0 50px;           /* เพิ่มระยะห่างระหว่างรูปภาพด้วยค่า margin ทั้งด้านซ้ายและด้านขวา (ถ้าต้องการ) */
+}
+
+
+
+/*Sub1*/
+
+/* CSS */
+.button-40 {
+  background: rgba(159, 159, 159, 0.1);
+  border: 0.5px solid transparent;
+  border-radius: .65rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: PK Samut Sakhon-Medium;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: .75rem 1.5rem;
+  text-align: center;
+  text-decoration-thickness: auto;
+  transition-duration: .4s;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #34ff3e71;
+  backdrop-filter: blur(3px);
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .65rem 1rem;
+  }
+}
